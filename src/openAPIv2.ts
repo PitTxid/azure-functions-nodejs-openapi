@@ -30,7 +30,7 @@ const generateOpenApiSpec =
     const body: OpenAPIV2.Document = {
       ...doc,
       swagger: "2.0",
-      basePath: "/api",
+      basePath: "/",
       paths,
     };
     context.res = { body };
